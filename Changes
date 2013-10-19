@@ -1,0 +1,30 @@
+Revision history for Pod-Weaver-PluginBundle-Author-SHARYANTO
+
+0.04    2013-10-19 (SHARYANTO)
+
+        - Rename from Pod-Weaver-PluginBundle-SHARYANTO to
+          Pod-Weaver-PluginBundle-Author-SHARYANTO.
+
+        - Add sections: Availability & SourceGitHub (because people reading the
+          POD and not sco/metacpan wouldn't realize that the module is hosted on
+          GitHub).
+
+        - Add section: BugsRT.
+
+        - Fix ordering.
+
+
+0.03    2013-04-10 (SHARYANTO)
+
+        - Add Encoding.
+
+
+0.02    2013-04-04 (SHARYANTO)
+
+        No functional changes. Mark with /PW so that the log message source is
+        clear when doing e.g. 'dzil build -v'.
+
+
+0.01    2013-04-04 (SHARYANTO)
+
+        First release.

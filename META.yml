@@ -1,0 +1,31 @@
+---
+abstract: "SHARYANTO's default Pod::Weaver config"
+author:
+  - 'Steven Haryanto <stevenharyanto@gmail.com>'
+build_requires:
+  File::Spec: 0
+  IO::Handle: 0
+  IPC::Open3: 0
+  Test::More: 0
+configure_requires:
+  ExtUtils::MakeMaker: 6.30
+dynamic_config: 0
+generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132140'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
+name: Pod-Weaver-PluginBundle-Author-SHARYANTO
+requires:
+  Pod::Weaver::Config::Assembler: 0
+  Pod::Weaver::Plugin::Encoding: 0
+  Pod::Weaver::Plugin::EnsureUniqueSections: 0
+  Pod::Weaver::Plugin::Perinci: 0
+  Pod::Weaver::Section::Availability: 0
+  Pod::Weaver::Section::BugsRT: 0
+  Pod::Weaver::Section::SourceGitHub: 0
+  perl: 5.010001
+resources:
+  homepage: http://metacpan.org/release/Pod-Weaver-PluginBundle-Author-SHARYANTO
+  repository: http://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYANTO
+version: 0.03
