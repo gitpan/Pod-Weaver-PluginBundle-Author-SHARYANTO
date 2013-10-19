@@ -28,4 +28,4 @@ requires:
 resources:
   homepage: http://metacpan.org/release/Pod-Weaver-PluginBundle-Author-SHARYANTO
   repository: http://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYANTO
-version: 0.03
+version: 0.04
