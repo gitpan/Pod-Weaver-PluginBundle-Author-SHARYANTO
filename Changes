@@ -1,5 +1,17 @@
 Revision history for Pod-Weaver-PluginBundle-Author-SHARYANTO
 
+0.05    2013-10-22 (SHARYANTO)
+
+        - Make this PW bundle usable for CPAN modules as well as non-CPAN
+          modules.
+
+        - Replace Availability with Homepage::DefaultCPAN.
+
+        - Replace SourceGitHub with Source::DefaultGitHub.
+
+        - Replace BugsRT with Bugs::DefaultRT.
+
+
 0.04    2013-10-19 (SHARYANTO)
 
         - Rename from Pod-Weaver-PluginBundle-SHARYANTO to
@@ -21,10 +33,10 @@ Revision history for Pod-Weaver-PluginBundle-Author-SHARYANTO
 
 0.02    2013-04-04 (SHARYANTO)
 
-        No functional changes. Mark with /PW so that the log message source is
-        clear when doing e.g. 'dzil build -v'.
+        - No functional changes. Mark with /PW so that the log message source is
+          clear when doing e.g. 'dzil build -v'.
 
 
 0.01    2013-04-04 (SHARYANTO)
 
-        First release.
+        - First release.

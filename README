@@ -2,9 +2,6 @@ NAME
     Pod::Weaver::PluginBundle::Author::SHARYANTO - SHARYANTO's default
     Pod::Weaver config
 
-VERSION
-    version 0.04
-
 SYNOPSIS
     In "weaver.ini":
 
@@ -18,10 +15,29 @@ SYNOPSIS
 DESCRIPTION
     Equivalent to (see source code).
 
+SOURCE
+    The development version is on github at
+    <http://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYAN
+    TO> and may be cloned from
+    <git://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYANT
+    O.git>
+
 SEE ALSO
     Pod::Weaver
 
     Dist::Zilla::PluginBundle::Author::SHARYANTO
+
+HOMEPAGE
+    Please visit the project's homepage at
+    <http://metacpan.org/release/Pod-Weaver-PluginBundle-Author-SHARYANTO>.
+
+BUGS
+    Please report any bugs or feature requests on the bugtracker website
+    http://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-PluginBundle
+    -Au thor-SHARYANTO
+
+    When submitting a bug or request, please include a test-file or a patch
+    to an existing test-file that illustrates the bug or desired feature.
 
 AUTHOR
     Steven Haryanto <stevenharyanto@gmail.com>

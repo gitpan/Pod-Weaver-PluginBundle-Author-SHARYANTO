@@ -24,9 +24,9 @@ my %WriteMakefileArgs = (
     "Pod::Weaver::Plugin::Encoding" => 0,
     "Pod::Weaver::Plugin::EnsureUniqueSections" => 0,
     "Pod::Weaver::Plugin::Perinci" => 0,
-    "Pod::Weaver::Section::Availability" => 0,
-    "Pod::Weaver::Section::BugsRT" => 0,
-    "Pod::Weaver::Section::SourceGitHub" => 0
+    "Pod::Weaver::Section::Bugs::DefaultRT" => 0,
+    "Pod::Weaver::Section::Homepage::DefaultCPAN" => 0,
+    "Pod::Weaver::Section::Source::DefaultGitHub" => 0
   },
   "TEST_REQUIRES" => {
     "File::Spec" => 0,
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.04",
+  "VERSION" => "0.05",
   "test" => {
     "TESTS" => "t/*.t"
   }

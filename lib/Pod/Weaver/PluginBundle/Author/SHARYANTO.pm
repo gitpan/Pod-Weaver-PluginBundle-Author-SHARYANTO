@@ -4,7 +4,7 @@ use 5.010001;
 
 use Pod::Weaver::Config::Assembler;
 
-our $VERSION = '0.04'; # VERSION
+our $VERSION = '0.05'; # VERSION
 
 sub _exp { Pod::Weaver::Config::Assembler->expand_package($_[0]) }
 
@@ -23,21 +23,20 @@ sub mvp_bundle_config {
         [ 'FUNCTIONS', _exp('Collect'), { command => 'func' } ],
         #[ 'TYPES', _exp('Collect'), { command => ' } ],
 
-        [ '@Author::SHARYANTO/PW/Perinci', _exp('-Perinci'), {} ],
-
-        [ '@Author::SHARYANTO/PW/Availability', _exp('Availability'), {} ],
-        [ '@Author::SHARYANTO/PW/SourceGitHub', _exp('SourceGitHub'), {} ],
-        [ '@Author::SHARYANTO/PW/BugsRT', _exp('BugsRT'), {} ],
+        [ '@Author::SHARYANTO/Perinci', _exp('-Perinci'), {} ],
 
         [ '@Author::SHARYANTO/Leftovers', _exp('Leftovers'), {} ],
         [ '@Author::SHARYANTO/postlude',  _exp('Region'), { region_name => 'postlude' } ],
 
+        [ '@Author::SHARYANTO/Homepage::DefaultCPAN', _exp('Homepage::DefaultCPAN'), {} ],
+        [ '@Author::SHARYANTO/Source::DefaultGitHub', _exp('Source::DefaultGitHub'), {} ],
+        [ '@Author::SHARYANTO/Bugs::DefaultRT', _exp('Bugs::DefaultRT'), {} ],
         [ '@Author::SHARYANTO/Authors', _exp('Authors'), {} ],
         [ '@Author::SHARYANTO/Legal', _exp('Legal'), {} ],
 
-        [ '@Author::SHARYANTO/PW/EnsureUniqueSections', _exp('-EnsureUniqueSections'), {} ],
+        [ '@Author::SHARYANTO/EnsureUniqueSections', _exp('-EnsureUniqueSections'), {} ],
         #[ '@Author::SHARYANTO/List', _exp('-Transformer'), { transformer => 'List' } ],
-        [ '@Author::SHARYANTO/PW/Encoding', _exp('-Encoding'), {} ],
+        [ '@Author::SHARYANTO/Encoding', _exp('-Encoding'), {} ],
     );
 }
 
@@ -48,13 +47,11 @@ __END__
 
 =pod
 
+=encoding utf-8
+
 =head1 NAME
 
 Pod::Weaver::PluginBundle::Author::SHARYANTO - SHARYANTO's default Pod::Weaver config
-
-=head1 VERSION
-
-version 0.04
 
 =head1 SYNOPSIS
 
@@ -71,6 +68,11 @@ or in C<dist.ini>:
 
 Equivalent to (see source code).
 
+=head1 SOURCE
+
+The development version is on github at L<http://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYANTO>
+and may be cloned from L<git://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYANTO.git>
+
 =for Pod::Coverage .*
 
 =head1 SEE ALSO
@@ -78,6 +80,21 @@ Equivalent to (see source code).
 L<Pod::Weaver>
 
 L<Dist::Zilla::PluginBundle::Author::SHARYANTO>
+
+=head1 HOMEPAGE
+
+Please visit the project's homepage at
+L<http://metacpan.org/release/Pod-Weaver-PluginBundle-Author-SHARYANTO>.
+
+=head1 BUGS
+
+Please report any bugs or feature requests on the bugtracker website
+http://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-PluginBundle-Au
+thor-SHARYANTO
+
+When submitting a bug or request, please include a test-file or a
+patch to an existing test-file that illustrates the bug or desired
+feature.
 
 =head1 AUTHOR
 
