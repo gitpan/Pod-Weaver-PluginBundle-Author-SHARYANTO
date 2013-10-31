@@ -4,7 +4,7 @@ use 5.010001;
 
 use Pod::Weaver::Config::Assembler;
 
-our $VERSION = '0.05'; # VERSION
+our $VERSION = '0.06'; # VERSION
 
 sub _exp { Pod::Weaver::Config::Assembler->expand_package($_[0]) }
 
@@ -12,6 +12,7 @@ sub mvp_bundle_config {
     return (
         [ '@Author::SHARYANTO/CorePrep', _exp('@CorePrep'), {} ],
         [ '@Author::SHARYANTO/Name', _exp('Name'), {} ],
+        [ '@Author::SHARYANTO/Version', _exp('Version'), {} ],
         [ '@Author::SHARYANTO/prelude', _exp('Region'), { region_name => 'prelude' } ],
 
         [ 'SYNOPSIS', _exp('Generic'), {} ],
@@ -53,6 +54,10 @@ __END__
 
 Pod::Weaver::PluginBundle::Author::SHARYANTO - SHARYANTO's default Pod::Weaver config
 
+=head1 VERSION
+
+version 0.06
+
 =head1 SYNOPSIS
 
 In C<weaver.ini>:
@@ -68,11 +73,6 @@ or in C<dist.ini>:
 
 Equivalent to (see source code).
 
-=head1 SOURCE
-
-The development version is on github at L<http://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYANTO>
-and may be cloned from L<git://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYANTO.git>
-
 =for Pod::Coverage .*
 
 =head1 SEE ALSO
@@ -83,8 +83,11 @@ L<Dist::Zilla::PluginBundle::Author::SHARYANTO>
 
 =head1 HOMEPAGE
 
-Please visit the project's homepage at
-L<http://metacpan.org/release/Pod-Weaver-PluginBundle-Author-SHARYANTO>.
+Please visit the project's homepage at L<https://metacpan.org/release/Pod-Weaver-PluginBundle-Author-SHARYANTO>.
+
+=head1 SOURCE
+
+Source repository is at L<https://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYANTO>.
 
 =head1 BUGS
 

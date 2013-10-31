@@ -1,5 +1,10 @@
 Revision history for Pod-Weaver-PluginBundle-Author-SHARYANTO
 
+0.06    2013-10-31 (SHARYANTO)
+
+        - Add missing section: Version.
+
+
 0.05    2013-10-22 (SHARYANTO)
 
         - Make this PW bundle usable for CPAN modules as well as non-CPAN

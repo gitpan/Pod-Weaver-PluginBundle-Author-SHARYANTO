@@ -10,7 +10,7 @@ build_requires:
 configure_requires:
   ExtUtils::MakeMaker: 6.30
 dynamic_config: 0
-generated_by: 'Dist::Zilla version 4.300039, CPAN::Meta::Converter version 2.132140'
+generated_by: 'Dist::Zilla version 5.001, CPAN::Meta::Converter version 2.132140'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -25,7 +25,5 @@ requires:
   Pod::Weaver::Section::Homepage::DefaultCPAN: 0
   Pod::Weaver::Section::Source::DefaultGitHub: 0
   perl: 5.010001
-resources:
-  homepage: http://metacpan.org/release/Pod-Weaver-PluginBundle-Author-SHARYANTO
-  repository: http://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYANTO
-version: 0.05
+resources: {}
+version: 0.06
