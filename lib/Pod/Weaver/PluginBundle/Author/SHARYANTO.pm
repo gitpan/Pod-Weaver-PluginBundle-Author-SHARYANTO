@@ -4,7 +4,7 @@ use 5.010001;
 
 use Pod::Weaver::Config::Assembler;
 
-our $VERSION = '0.06'; # VERSION
+our $VERSION = '0.07'; # VERSION
 
 sub _exp { Pod::Weaver::Config::Assembler->expand_package($_[0]) }
 
@@ -56,7 +56,7 @@ Pod::Weaver::PluginBundle::Author::SHARYANTO - SHARYANTO's default Pod::Weaver c
 
 =head1 VERSION
 
-version 0.06
+version 0.07
 
 =head1 SYNOPSIS
 
@@ -72,6 +72,11 @@ or in C<dist.ini>:
 =head1 DESCRIPTION
 
 Equivalent to (see source code).
+
+=head1 FUNCTIONS
+
+
+None are exported by default, but they are exportable.
 
 =for Pod::Coverage .*
 
@@ -92,8 +97,8 @@ Source repository is at L<https://github.com/sharyanto/perl-Pod-Weaver-PluginBun
 =head1 BUGS
 
 Please report any bugs or feature requests on the bugtracker website
-http://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-PluginBundle-Au
-thor-SHARYANTO
+L<https://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-PluginBundle
+-Author-SHARYANTO>
 
 When submitting a bug or request, please include a test-file or a
 patch to an existing test-file that illustrates the bug or desired

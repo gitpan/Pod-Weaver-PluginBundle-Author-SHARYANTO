@@ -3,7 +3,7 @@ NAME
     Pod::Weaver config
 
 VERSION
-    version 0.06
+    version 0.07
 
 SYNOPSIS
     In "weaver.ini":
@@ -17,6 +17,9 @@ SYNOPSIS
 
 DESCRIPTION
     Equivalent to (see source code).
+
+FUNCTIONS
+    None are exported by default, but they are exportable.
 
 SEE ALSO
     Pod::Weaver
@@ -34,8 +37,8 @@ SOURCE
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website
-    http://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-PluginBundle
-    -Au thor-SHARYANTO
+    "/rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-PluginBundle
+    -Author-SHARYANTO" in https:
 
     When submitting a bug or request, please include a test-file or a patch
     to an existing test-file that illustrates the bug or desired feature.
