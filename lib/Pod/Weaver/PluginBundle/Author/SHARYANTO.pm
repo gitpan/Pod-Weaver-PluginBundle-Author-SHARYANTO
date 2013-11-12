@@ -4,7 +4,7 @@ use 5.010001;
 
 use Pod::Weaver::Config::Assembler;
 
-our $VERSION = '0.07'; # VERSION
+our $VERSION = '0.08'; # VERSION
 
 sub _exp { Pod::Weaver::Config::Assembler->expand_package($_[0]) }
 
@@ -37,7 +37,7 @@ sub mvp_bundle_config {
 
         [ '@Author::SHARYANTO/EnsureUniqueSections', _exp('-EnsureUniqueSections'), {} ],
         #[ '@Author::SHARYANTO/List', _exp('-Transformer'), { transformer => 'List' } ],
-        [ '@Author::SHARYANTO/Encoding', _exp('-Encoding'), {} ],
+        [ '@Author::SHARYANTO/SingleEncoding', _exp('-SingleEncoding'), {} ],
     );
 }
 
@@ -56,7 +56,7 @@ Pod::Weaver::PluginBundle::Author::SHARYANTO - SHARYANTO's default Pod::Weaver c
 
 =head1 VERSION
 
-version 0.07
+version 0.08
 
 =head1 SYNOPSIS
 

@@ -20,8 +20,8 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Pod::Weaver::PluginBundle::Author::SHARYANTO",
   "PREREQ_PM" => {
+    "Pod::Weaver" => "4.000",
     "Pod::Weaver::Config::Assembler" => 0,
-    "Pod::Weaver::Plugin::Encoding" => 0,
     "Pod::Weaver::Plugin::EnsureUniqueSections" => 0,
     "Pod::Weaver::Plugin::Perinci" => 0,
     "Pod::Weaver::Section::Bugs::DefaultRT" => "0.02",
@@ -34,7 +34,7 @@ my %WriteMakefileArgs = (
     "IPC::Open3" => 0,
     "Test::More" => 0
   },
-  "VERSION" => "0.07",
+  "VERSION" => "0.08",
   "test" => {
     "TESTS" => "t/*.t"
   }
