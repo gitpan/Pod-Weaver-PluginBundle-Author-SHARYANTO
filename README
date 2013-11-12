@@ -3,7 +3,7 @@ NAME
     Pod::Weaver config
 
 VERSION
-    version 0.08
+    version 0.09
 
 SYNOPSIS
     In "weaver.ini":
@@ -37,8 +37,8 @@ SOURCE
 
 BUGS
     Please report any bugs or feature requests on the bugtracker website
-    "/rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-PluginBundle
-    -Author-SHARYANTO" in https:
+    <https://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-PluginBund
+    le-Author-SHARYANTO>
 
     When submitting a bug or request, please include a test-file or a patch
     to an existing test-file that illustrates the bug or desired feature.

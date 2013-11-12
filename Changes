@@ -1,5 +1,10 @@
 Revision history for Pod-Weaver-PluginBundle-Author-SHARYANTO
 
+0.09    2013-11-12 (SHARYANTO)
+
+        - Force version of Pod::Weaver::Section::Bugs::DefaultRT 0.03.
+
+
 0.08    2013-11-12 (SHARYANTO)
 
         - Replace Encoding with SingleEncoding (thanks sergeyromanov). Require
