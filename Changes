@@ -1,5 +1,12 @@
 Revision history for Pod-Weaver-PluginBundle-Author-SHARYANTO
 
+0.10    2014-04-12 (SHARYANTO)
+
+        - Add plugin bundle PWP::Author::SHARYANTO::NoPerinci (for lib-none,
+          since the Perinci plugin will fail to load it; and there is currently
+          no @Filter mechanism like in Dist::Zilla).
+
+
 0.09    2013-11-12 (SHARYANTO)
 
         - Force version of Pod::Weaver::Section::Bugs::DefaultRT 0.03.

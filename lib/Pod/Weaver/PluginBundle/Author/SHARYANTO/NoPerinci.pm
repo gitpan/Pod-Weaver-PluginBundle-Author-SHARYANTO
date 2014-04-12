@@ -1,4 +1,4 @@
-package Pod::Weaver::PluginBundle::Author::SHARYANTO;
+package Pod::Weaver::PluginBundle::Author::SHARYANTO::NoPerinci;
 
 use 5.010001;
 
@@ -23,8 +23,6 @@ sub mvp_bundle_config {
         [ 'METHODS', _exp('Collect'), { command => 'method' } ],
         [ 'FUNCTIONS', _exp('Collect'), { command => 'func' } ],
         #[ 'TYPES', _exp('Collect'), { command => ' } ],
-
-        [ '@Author::SHARYANTO/Perinci', _exp('-Perinci'), {} ],
 
         [ '@Author::SHARYANTO/Leftovers', _exp('Leftovers'), {} ],
         [ '@Author::SHARYANTO/postlude',  _exp('Region'), { region_name => 'postlude' } ],
@@ -52,7 +50,7 @@ __END__
 
 =head1 NAME
 
-Pod::Weaver::PluginBundle::Author::SHARYANTO - SHARYANTO's default Pod::Weaver config
+Pod::Weaver::PluginBundle::Author::SHARYANTO::NoPerinci - SHARYANTO's default Pod::Weaver config
 
 =head1 VERSION
 
