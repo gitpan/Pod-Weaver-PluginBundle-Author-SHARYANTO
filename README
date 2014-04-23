@@ -3,7 +3,10 @@ NAME
     Pod::Weaver config
 
 VERSION
-    version 0.10
+    version 0.11
+
+RELEASE DATE
+    2014-04-23
 
 SYNOPSIS
     In "weaver.ini":

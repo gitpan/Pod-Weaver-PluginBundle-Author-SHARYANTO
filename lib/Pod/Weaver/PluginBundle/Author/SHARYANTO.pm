@@ -4,7 +4,7 @@ use 5.010001;
 
 use Pod::Weaver::Config::Assembler;
 
-our $VERSION = '0.10'; # VERSION
+our $VERSION = '0.11'; # VERSION
 
 sub _exp { Pod::Weaver::Config::Assembler->expand_package($_[0]) }
 
@@ -13,6 +13,7 @@ sub mvp_bundle_config {
         [ '@Author::SHARYANTO/CorePrep', _exp('@CorePrep'), {} ],
         [ '@Author::SHARYANTO/Name', _exp('Name'), {} ],
         [ '@Author::SHARYANTO/Version', _exp('Version'), {} ],
+        [ '@Author::SHARYANTO/ReleaseDate', _exp('ReleaseDate'), {} ],
         [ '@Author::SHARYANTO/prelude', _exp('Region'), { region_name => 'prelude' } ],
 
         [ 'SYNOPSIS', _exp('Generic'), {} ],
@@ -56,7 +57,11 @@ Pod::Weaver::PluginBundle::Author::SHARYANTO - SHARYANTO's default Pod::Weaver c
 
 =head1 VERSION
 
-version 0.10
+version 0.11
+
+=head1 RELEASE DATE
+
+2014-04-23
 
 =head1 SYNOPSIS
 
