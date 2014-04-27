@@ -3,10 +3,9 @@ NAME
     Pod::Weaver config
 
 VERSION
-    version 0.11
-
-RELEASE DATE
-    2014-04-23
+    This document describes version 0.12 of module
+    Pod::Weaver::PluginBundle::Author::SHARYANTO (in distribution
+    Pod-Weaver-PluginBundle-Author-SHARYANTO), released on 2014-04-28.
 
 SYNOPSIS
     In "weaver.ini":

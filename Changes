@@ -1,5 +1,11 @@
 Revision history for Pod-Weaver-PluginBundle-Author-SHARYANTO
 
+0.12    2014-04-28 (SHARYANTO)
+
+        - Remove PWS::ReleaseDate, PWS::Version is perfectly capable of
+          displaying more than version number, including release date.
+
+
 0.11    2014-04-23 (SHARYANTO)
 
         - Add plugin PWS::ReleaseDate.
