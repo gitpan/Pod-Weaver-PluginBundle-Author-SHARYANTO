@@ -1,5 +1,11 @@
 Revision history for Pod-Weaver-PluginBundle-Author-SHARYANTO
 
+0.13    2014-04-29 (SHARYANTO)
+
+        - Change wording in VERSION section ('distribution' -> 'Perl
+          distribution').
+
+
 0.12    2014-04-28 (SHARYANTO)
 
         - Remove PWS::ReleaseDate, PWS::Version is perfectly capable of

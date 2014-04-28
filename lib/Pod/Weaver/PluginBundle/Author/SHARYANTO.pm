@@ -4,7 +4,7 @@ use 5.010001;
 
 use Pod::Weaver::Config::Assembler;
 
-our $VERSION = '0.12'; # VERSION
+our $VERSION = '0.13'; # VERSION
 
 sub _exp { Pod::Weaver::Config::Assembler->expand_package($_[0]) }
 
@@ -12,7 +12,7 @@ sub mvp_bundle_config {
     return (
         [ '@Author::SHARYANTO/CorePrep', _exp('@CorePrep'), {} ],
         [ '@Author::SHARYANTO/Name', _exp('Name'), {} ],
-        [ '@Author::SHARYANTO/Version', _exp('Version'), {format=>'This document describes version %v of module %m (in distribution %r), released on %{YYYY-MM-dd}d.'} ],
+        [ '@Author::SHARYANTO/Version', _exp('Version'), {format=>'This document describes version %v of module %m (in Perl distribution %r), released on %{YYYY-MM-dd}d.'} ],
         [ '@Author::SHARYANTO/prelude', _exp('Region'), { region_name => 'prelude' } ],
 
         [ 'SYNOPSIS', _exp('Generic'), {} ],
@@ -56,7 +56,7 @@ Pod::Weaver::PluginBundle::Author::SHARYANTO - SHARYANTO's default Pod::Weaver c
 
 =head1 VERSION
 
-This document describes version 0.12 of module Pod::Weaver::PluginBundle::Author::SHARYANTO (in distribution Pod-Weaver-PluginBundle-Author-SHARYANTO), released on 2014-04-28.
+This document describes version 0.13 of module Pod::Weaver::PluginBundle::Author::SHARYANTO (in distribution Pod-Weaver-PluginBundle-Author-SHARYANTO), released on 2014-04-29.
 
 =head1 SYNOPSIS
 
