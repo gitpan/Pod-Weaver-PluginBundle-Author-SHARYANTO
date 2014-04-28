@@ -3,8 +3,8 @@ NAME
     Pod::Weaver config
 
 VERSION
-    This document describes version 0.13 of module
-    Pod::Weaver::PluginBundle::Author::SHARYANTO (in distribution
+    This document describes version 0.14 of module
+    Pod::Weaver::PluginBundle::Author::SHARYANTO (in Perl distribution
     Pod-Weaver-PluginBundle-Author-SHARYANTO), released on 2014-04-29.
 
 SYNOPSIS

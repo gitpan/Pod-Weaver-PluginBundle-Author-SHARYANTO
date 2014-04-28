@@ -29,7 +29,7 @@ resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=Pod-Weaver-PluginBundle-Author-SHARYANTO
   homepage: https://metacpan.org/release/Pod-Weaver-PluginBundle-Author-SHARYANTO
   repository: git://github.com/sharyanto/perl-Pod-Weaver-PluginBundle-Author-SHARYANTO.git
-version: '0.13'
+version: '0.14'
 x_Dist_Zilla:
   perl:
     version: '5.018002'
